@@ -13,7 +13,7 @@ summary_text: Being a Designer Who Codes™ is a pretty awesome superpower. Not 
 Being a Designer Who Codes™ is a pretty awesome superpower. Not only can you design pictures of gorgeous websites, but you can make them exist on the real internet! *(Because as much as I love them, Dribbble shots are not the real internet)*. It’s a bit like being a mad scientist; you can bring dead mockups to life through your own determination and genius. 👩‍🔬
 
 <figure class="fig-secondary">
-    <img src="https://miro.medium.com/max/480/1*TU17Yf_veJSPC-BCcag1ag.gif" alt="">
+    <img src="/i/learn/its_alive.gif" alt="">
     <figcaption>Me every time I build a website</figcaption>
 </figure>
 
@@ -53,7 +53,7 @@ When I learned to build websites, there were 5 stages I went through as I got mo
 
 ## 1. Get comfortable with the naked internet (sorry, not THAT naked internet)
 
-![](https://miro.medium.com/max/500/1*UH4CrdQPBVqogDD_S5nEwg.gif)
+![](/i/learn/patrick_naked.gif)
 
 Have you ever seen the internet naked — stripped of all the fancy clothes and accessories we designers layer over the content to enhance it?
 
@@ -64,7 +64,7 @@ CSS (there’s a hint in the name : Cascading Style Sheets) is the realm of the 
 For example, here’s what Apple.com looks like without any styles or images:
 
 <figure class="fig-secondary">
-    <img src="https://miro.medium.com/max/700/1*r7Y56IL1AO9MLLT_Nrbesg.png" alt="">
+    <img src="/i/learn/bare_apple.jpeg" alt="">
     <figcaption>Apple sans style</figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ As a designer you’ll probably start itching to change that HTML into something
 Try not to get bogged down in embedding custom webfonts, or whether to use RGBA or HSLA for your colors — at least at first. If you’re googling “change my text to be blue” and you read anything that makes you feel anxious, just close that tab and look elsewhere. There are lots of resources for finding clear simple answers on CSS. My favorite is [CSS-Tricks.com](https://css-tricks.com/); if I’m googling something CSS related, and they come up in the results, it’s the first place I go. *Saying this again in big words because it’s important:*
 
 <aside>
-  <p>At the start, if you read anything that makes you get an anxious “I don’t know what the hell they’re talking about” feeling, just close that tab and find a better explanation, probably on [CSS-Tricks.com](https://css-tricks.com/).</p>
+  <p>At the start, if you read anything that makes you get an anxious “I don’t know what the hell they’re talking about” feeling, just close that tab and find a better explanation, probably on <a href="https://css-tricks.com/">CSS-Tricks.com</a>.</p>
 </aside>
 
 For now, stick with simple stuff like “body { background: #0058FF; }”. Don’t worry about embedding Google Webfonts, instead, try “body { font-family: Arial, sans-serif; }” and hit refresh.
@@ -123,7 +123,7 @@ I’m way oversimplifying here — Responsive Design is about so much more than 
 Luckily for us all, a resource exists that will make this as pleasant as slipping into a warm bath, and that resource is Ethan Marcotte’s [Responsive Web Design](https://abookapart.com/products/responsive-web-design). Ethan is hilarious, articulate, and has a rare gift for distilling seemingly complex ideas into something simple and approachable.
 
 <figure class="fig-secondary">
-    <img src="https://miro.medium.com/max/700/1*59VN0ESUK8xS46kEyK0-lw.jpeg" alt="">
+    <img src="/i/learn/charizard.jpeg" alt="">
     <figcaption>If learning to code evolves your cute little design Charmander self into a Charmeleon, learning to build Responsive Websites makes you a badass Charizard.</figcaption>
 </figure>
 
@@ -167,14 +167,14 @@ This book taught me the fundamentals of how websites actually work, which — if
 There have been a handful of other books that have made me more confident as a front-end developer, and helped to shape my career. Here they are, in the order I read them:
 
 <ul class="no-bullet emoji-bullet">
-  <li>📗 [Designing with Web Standards](https://www.amazon.com/Designing-Web-Standards-Jeffrey-Zeldman/dp/0321616952)</li>
-  <li>📘 [Bulletproof Web Design](https://www.amazon.com/Bulletproof-Web-Design-flexibility-protecting/dp/0321509021)</li>
-  <li>📕 [Handcrafted CSS](https://www.amazon.com/Handcrafted-CSS-More-Bulletproof-Design/dp/0321643380)</li>
-  <li>📗 [HTML5 for Web Designers](https://abookapart.com/products/html5-for-web-designers)</li>
-  <li>📘 [CSS3 for Web Designers](https://abookapart.com/products/css3-for-web-designers)</li>
-  <li>📕 [Responsive Web Design](https://abookapart.com/products/responsive-web-design)</li>
-  <li>📗 [Sass for Web Designers](https://abookapart.com/products/sass-for-web-designers)</li>
-  <li>📘 [The New CSS Layout](https://abookapart.com/products/the-new-css-layout)</li>
+  <li>📗 <a href="https://www.amazon.com/Designing-Web-Standards-Jeffrey-Zeldman/dp/0321616952">Designing with Web Standards</a></li>
+  <li>📘 <a href="https://www.amazon.com/Bulletproof-Web-Design-flexibility-protecting/dp/0321509021">Bulletproof Web Design</a></li>
+  <li>📕 <a href="https://www.amazon.com/Handcrafted-CSS-More-Bulletproof-Design/dp/0321643380">Handcrafted CSS</a></li>
+  <li>📗 <a href="https://abookapart.com/products/html5-for-web-designers">HTML5 for Web Designers</a></li>
+  <li>📘 <a href="https://abookapart.com/products/css3-for-web-designers">CSS3 for Web Designers</a></li>
+  <li>📕 <a href="https://abookapart.com/products/responsive-web-design">Responsive Web Design</a></li>
+  <li>📗 <a href="https://abookapart.com/products/sass-for-web-designers">Sass for Web Designers</a></li>
+  <li>📘 <a href="https://abookapart.com/products/the-new-css-layout">The New CSS Layout</a></li>
 </ul>
 
 If you want to be a Designer who Codes, reading these books is how I did it. Some of them may be “old” by internet standards, but everything in them is still relevant today. The people who wrote them are geniuses who will make you feel smart too.
