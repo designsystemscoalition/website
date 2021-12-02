@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Design.Systems{% if subtitle %} / {{ subtitle }} {% endif %}</title>
+  {% if title %}<meta property="og:title" content="{{ title }}" />{% endif %}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://design.systems/" />
+  {% if description %}<meta name="Description" content="{{ description }}" />
+  <meta property="og:description" content="{{ description }}" />{% endif %}
+  {% if og_image %}<meta property="og:image" content="{{ og_image }}" />{% endif %}
+  <link rel="stylesheet" type="text/css" href="/c/screen.css" />
+  <link rel="icon" type="image/png" href="/i/favicon32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/i/favicon16.png" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css2?family=Recursive:slnt,wght,CASL,CRSV,MONO@-15..0,300..1000,0..1,0..1,0..1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    {% set pathList = page.url.split("/") %}
+    <p id="location">{% if logo_mark %}<img class="logomark" src="/i/design-systems-logomark.svg" alt="Logomark."> {% endif %}<a class="logotype" href="/">Design.Systems</a> {% if pathList.length > 2 %}/ {% if pathList.length > 3 %}<a href="#">{{ pathList[1] }}</a> /{% else %}{{ pathList[1] }}{% endif %}{% endif %}</h1>
+    <nav role="navigation">
+      <ul>
+        <li><a{% if nav_prefix == "connect" %} class="live"{% endif %} href="/connect">Connect</a></li>
+        <li><a{% if nav_prefix == "learn" %} class="live"{% endif %} href="/learn">Learn</a></li>
+        <li><a{% if nav_prefix == "contribute" %} class="live"{% endif %} href="/contribute">Contribute</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {% block main %}
+    {% endblock %}
+  </main>
+
+
+  <footer>
+    <address><p><img class="logomark" src="/i/design-systems-logomark.svg" alt="Logomark."> <b class="logotype">Design.Systems</b> is a community project supported by volunteers, on <a href="https://www.patreon.com/sushiandrobots">Patreon</a>, and initiated by <a href="https://jina.me">Jina Anne</a> in 2016. Join us to <a href="/connect">connect</a>, <a href="/learn">learn</a>, and <a href="/contribute">contribute</a>!</p></address>
+  </footer>
+
+</body>
+</html>

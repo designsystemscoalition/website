@@ -1,0 +1,16 @@
+<ol class="posts">
+
+{% for post in collections.learn | reverse %}
+<li>
+  <div>
+    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+    <p>{{ post.data.summary_text }}</p>
+  </div>
+  <ul class="post-info">
+    <li><a href="{{ post.data.author_url }}"><img class="avatar" src="{{ post.data.author_avatar }}" alt=""/> {{ post.data.author }}</a></li> 
+    <li>{{ post.date | formatDate }}</li>
+  </ul>
+</li>
+
+{% endfor %}
+</ol>

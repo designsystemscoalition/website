@@ -1,0 +1,61 @@
+---
+subtitle: learn
+logo_mark: true
+nav_prefix: learn
+---
+{% extends "layout.njk" %}
+
+{% block main %}
+<section id="preface">
+
+<h1><b class="logotype">Learn</b> along with us with articles and resources. If you find yourself inspired, <a href="/contribute">contribute</a> your own knowledge, too.</h1>
+
+</section>
+
+
+<section id="handbook">
+
+<a class="cta-handbook" href="https://www.designbetter.co/design-systems-handbook">
+<img class="book" src="/i/design-systems-handbook.png" alt="DS Hanbook book cover." width="120px" />
+<div class="handbook-info">
+<h3>DS Handbook</h3>
+<p>The handbook guides readers through best practices around planning, designing, building, and implementing a design system, with insights and first-hand experiences from experts who have gone through the journey.</p>
+</div>
+</a>
+
+</section>
+
+
+<section class="alternate">
+
+<h2>Articles &#38; Publications</h2>
+
+{% include "learn-article-list.njk" %}
+
+</section>
+
+
+<section>
+
+<h2><a href="/learn/glossary">Design Systems Glossary</a></h2>
+<div class="split-col-asymmetric end">
+<p>Learn about the emerging nomencleture and current common vocabulary of design&#160;systems.</p>
+<p><a href="/learn/glossary">Browse the glossary</a></p>
+</div>
+
+</section>
+
+
+<section class="alternate">
+
+<h2>Contribute</h2>
+<div class="split-col-equal">
+<p>From articles, to practical help, or even running your own local meetup, there are a bunch of ways you can get involved. <a href="/contribute">Go to contribute to see how</a>.</p>
+<p><a href="https://www.patreon.com/sushiandrobots">Support the Design.Systems project on Patreon</a> — all of our activities, events, and publishing is made possible thanks to patrons like you. </p>
+</div>
+
+<h3>Learning from elsewhere</h3>
+<p>Check out <a href="https://news.design.systems">news.design.systems</a> for curated links from around the web.</p>
+
+</section>
+{% endblock %}

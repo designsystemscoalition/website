@@ -1,0 +1,24 @@
+{
+  "name": "design.systems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx eleventy --input src",
+    "dev": "npx eleventy --serve --input src --port=8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facultyco/design.systems.git"
+  },
+  "author": "Faculty",
+  "bugs": {
+    "url": "https://github.com/facultyco/design.systems/issues"
+  },
+  "homepage": "https://github.com/facultyco/design.systems#readme"
+}

@@ -1,0 +1,20 @@
+---
+subtitle: learn
+logo_mark: true
+---
+{% extends "layout.njk" %}
+
+
+{% block main %}
+<article class="long-length">
+
+<header>
+<h1>{{ title }}</h1>
+<p class="article-info"><a href="{{ author_url }}"><img class="avatar" src="{{ author_avatar }}" alt=""/> {{ author }}</a> on {{ date | formatDate(true) }}</p>
+</ul>
+</header>
+
+{{ content | safe }}
+
+</article>
+{% endblock %}
