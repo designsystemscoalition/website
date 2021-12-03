@@ -5,7 +5,7 @@ tags: learn
 date: 2019-02-20
 author: Meagan Fisher Couldwell
 author_url: https://owltastic.com/
-author_avatar: /i/people/meagan-fisher-couldwell.jpg
+author_avatar: /assets/img/people/meagan-fisher-couldwell.jpg
 summary_text: Being a Designer Who Codes™ is a pretty awesome superpower. Not only can you design pictures of gorgeous websites, but you can make them exist on the real internet!
 ---
 *Quick note: “coding” in this article is my shorthand phrase for “learning enough HTML and CSS to be able to create the basic front-end for the websites you design.” Many developers will probably see this as dipping the smallest of pinky toes into “coding,” and that’s fine with me. 💁‍♀️*
@@ -13,7 +13,7 @@ summary_text: Being a Designer Who Codes™ is a pretty awesome superpower. Not 
 Being a Designer Who Codes™ is a pretty awesome superpower. Not only can you design pictures of gorgeous websites, but you can make them exist on the real internet! *(Because as much as I love them, Dribbble shots are not the real internet)*. It’s a bit like being a mad scientist; you can bring dead mockups to life through your own determination and genius. 👩‍🔬
 
 <figure class="fig-secondary">
-    <img src="/i/learn/its_alive.gif" alt="">
+    <img src="/assets/img/learn/its_alive.gif" alt="">
     <figcaption>Me every time I build a website</figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ CSS (there’s a hint in the name : Cascading Style Sheets) is the realm of the 
 For example, here’s what Apple.com looks like without any styles or images:
 
 <figure class="fig-secondary">
-    <img src="/i/learn/bare_apple.jpeg" alt="">
+    <img src="/assets/img/learn/bare_apple.jpeg" alt="">
     <figcaption>Apple sans style</figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ I’m way oversimplifying here — Responsive Design is about so much more than 
 Luckily for us all, a resource exists that will make this as pleasant as slipping into a warm bath, and that resource is Ethan Marcotte’s [Responsive Web Design](https://abookapart.com/products/responsive-web-design). Ethan is hilarious, articulate, and has a rare gift for distilling seemingly complex ideas into something simple and approachable.
 
 <figure class="fig-secondary">
-    <img src="/i/learn/charizard.jpeg" alt="">
+    <img src="/assets/img/learn/charizard.jpeg" alt="">
     <figcaption>If learning to code evolves your cute little design Charmander self into a Charmeleon, learning to build Responsive Websites makes you a badass Charizard.</figcaption>
 </figure>
 

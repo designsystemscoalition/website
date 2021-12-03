@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/i");
-  eleventyConfig.addPassthroughCopy("src/c");
+  eleventyConfig.addPassthroughCopy("src/assets/img");
+  eleventyConfig.addPassthroughCopy("src/assets/css");
   eleventyConfig.addNunjucksFilter("formatDate", function(value, with_dow) {
     let out;
 

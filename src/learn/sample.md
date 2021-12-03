@@ -5,11 +5,11 @@ tags: learn
 date: 2020-01-01
 author: Jon Tan
 author_url: https://jontangerine.com/
-author_avatar: /i/example-images/example-profile.jpg
+author_avatar: /assets/img/example-images/example-profile.jpg
 summary_text: Summary preface text to the article that is consistently around this length.
 ---
 <figure class="fig-primary">
-<img src="/i/example-images/1680-16-9.png" alt="" />
+<img src="/assets/img/example-images/1680-16-9.png" alt="" />
 <figcaption>16:9 full size image description in a limited number of words but that can still be a little less than brief.</figcaption>
 </figure>
 
@@ -39,7 +39,7 @@ Another ’graph to end on a block before the h2 test. This can be short,&#160;r
 ## Header two
 
 <figure class="fig-secondary">
-  <img src="/i/example-images/1680-16-9.png" alt="" />
+  <img src="/assets/img/example-images/1680-16-9.png" alt="" />
   <figcaption>16:9 inline image description in a limited number of words but that can still be a little less than brief.</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ An [amygdalic](/) flux of recept&#173;ion and react&#173;ion. Senses soaking, ph
 
 <div class="marginalia">
   <p>Class="marginalia" note that can be a ’graph over multple lines with <a href="/">hyperlinks</a> and <em>emphasised</em> text.</p>
-</div>	
+</div>
 
 Thus we communicate, awk&#173;wardly, some&#173;times beauti&#173;fully, but rarely clearly. The words point the way to a shared experience, or to one that could be shared if they inspire action. So it could be said that describing our senses is an invitation to others to share them, not an explanation of&#160;them.
 
