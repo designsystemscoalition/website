@@ -1,12 +1,11 @@
 ---
 subtitle: home
+layout: layout.njk
 ---
-{% extends "layout.njk" %}
 
-{% block main %}
 <section id="preface">
 
-<h1><img class="logomark" src="/assets/img/design-systems-logomark.svg" alt="Logomark."> <b class="logotype">Design.Systems</b> is an open, inclusive community run by practitioners since 2016. <a href="/connect">Connect</a> with others on Slack or at events. <a href="/learn">Learn</a> through articles, news, and resources. <a href="/contribute">Contribute</a> your knowledge and get&#160;involved.</h1>
+<h1><img class="logomark" src="/assets/img/design-systems-logomark.svg" alt="Logomark."> <b class="logotype">Design.Systems</b> is an open, inclusive community run by practitioners since 2016. <a href="/connect">Connect</a> with others on Slack or at events. <a href="/learn">Learn</a> through articles, news, and resources. <a href="/contribute">Contribute</a> your knowledge and get involved.</h1>
 
 </section>
 
@@ -39,7 +38,7 @@ subtitle: home
 <h3><a href="https://twitter.com/dsc_sf">San Francisco <em class="cta-dsc-twitter">@dsc_sf</em></a></h3>
 <ul class="meetup-info">
 <li><i>Next meeting:</i> <a href="#">Thu 04 Nov 2021</a></dd>
-<li><i>Location:</i> <a href="#">Company, Inc. 9867 Street Name. ZIPCODE</a></li>
+<li><i>Location:</i> <a class="meetup-info__location-detail" href="#">Company, Inc. 9867 Street Name. ZIPCODE</a></li>
 </ul>
 </li>
 
@@ -47,7 +46,7 @@ subtitle: home
 <h3><a href="https://twitter.com/nyc_dsc">New York <em class="cta-dsc-twitter">@nyc_dsc</em></a></h3>
 <ul class="meetup-info">
 <li><i>Next meeting:</i> Meetups resuming shortly</dd>
-<li><i>Location:</i> <abbr title="To be Decided.">TBD</abbr></li>
+<li><i>Location:</i> <abbr class="meetup-info__location-detail" title="To be Decided.">TBD</abbr></li>
 </ul>
 </li>
 
@@ -55,13 +54,13 @@ subtitle: home
 <h3><a href="https://twitter.com/ldn_dsc">London <em class="cta-dsc-twitter">@ldn_dsc</em></a></h3>
 <ul class="meetup-info">
 <li><i>Next meeting:</i> Meetups resuming shortly</dd>
-<li><i>Location:</i> <abbr title="To be Decided.">TBD</abbr></li>
+<li><i>Location:</i> <abbr class="meetup-info__location-detail" title="To be Decided.">TBD</abbr></li>
 </ul>
 </li>
 
 </ul>
 
-<p class="cta-more"><a href="/connect">Connect with the community &#8230;</a></p>
+<p class="cta-more"><a href="/connect">Connect with the community...</a></p>
 
 </section>
 
@@ -83,7 +82,7 @@ subtitle: home
 <h3>Links from elsewhere</h3>
 <div class="split-col-asymmetric end">
 <p>Check out <a href="https://news.design.systems">news.design.systems</a> for curated links from around the web.</p>
-<p><a href="/learn">Keep on learning &#8230;</a></p>
+<p><a href="/learn">Keep on learning...</a></p>
 </div>
 
 </section>
@@ -93,7 +92,6 @@ subtitle: home
 
 <h2><a href="/contribute">Contribute</a></h2>
 <p>From articles, to practical help, or even running your own local meetup, there are a bunch of ways you can get involved. <a href="/contribute">Go to contribute to see how</a>.</p>
-<p><a href="https://www.patreon.com/sushiandrobots">Support the Design.Systems project on Patreon</a>&#8202;&#8212;&#8202;all of our activities, events, and publishing is made possible thanks to patrons like you.</p>
+<p><a href="https://www.patreon.com/sushiandrobots">Support the Design.Systems project on Patreon</a> -- all of our activities, events, and publishing is made possible thanks to patrons like you.</p>
 
 </section>
-{% endblock %}

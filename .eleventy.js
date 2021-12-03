@@ -1,6 +1,11 @@
-module.exports = function(eleventyConfig) {
+const typographyPlugin = require("@jamshop/eleventy-plugin-typography");
+
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/img");
   eleventyConfig.addPassthroughCopy("src/assets/css");
+
+  eleventyConfig.addPlugin(typographyPlugin);
+
   eleventyConfig.addNunjucksFilter("formatDate", function(value, with_dow) {
     let out;
 
