@@ -1005,7 +1005,7 @@ background tone   #f8f8f7
     margin-right: 7%;
     font-variation-settings: 'MONO' 1, 'CASL' 0, 'CRSV' 0;
   }
-  .meetups i + * {
+  .meetup-info__location-detail {
     width: 60%;
   }
 
