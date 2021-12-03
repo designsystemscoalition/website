@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/facultyco/design.systems.git"
+    "url": "git+https://github.com/designsystemscommunity/website.git"
   },
-  "author": "Faculty",
+  "author": "Design.Systems",
   "bugs": {
-    "url": "https://github.com/facultyco/design.systems/issues"
+    "url": "https://github.com/designsystemscommunity/website/issues"
   },
-  "homepage": "https://github.com/facultyco/design.systems#readme"
+  "homepage": "https://github.com/designsystemscommunity/website#readme"
 }
