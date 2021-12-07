@@ -21,7 +21,7 @@ layout: layout.njk
 </li>
 <li>
 <h2>Volunteer</h2>
-<p>Reach out to one of the orgnizers to help run one of our <a href="/learn">coalition meetups</a> or reach out to <a href="https://jina.design/contact/">Jina at Design.Systems</a> to volunteer at Clarity.</p>
+<p>Reach out to one of the organizers to help run one of our <a href="/learn">coalition meetups</a> or reach out to <a href="mailto:jina@design.systems">Jina at Design.Systems</a> to volunteer at Clarity.</p>
 </li>
 <li>
 <h2>Run a Meetup</h2>
@@ -42,21 +42,17 @@ layout: layout.njk
 <p><a href="https://www.patreon.com/sushiandrobots">Support the community on Patreon</a> -- all of our activities, events, and publishing is made possible thanks to patrons like you.</p>
 
 <ul>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
-<li><a href="#"><img class="avatar" src="../assets/img/example-images/example-profile.jpg" alt="{insert}" /> Firstname Lastname</a></li>
+{% for patron in patreon %}
+{% if patron.patron_status == "active_patron" %}
+<li>
+{% if patron.social_connections.twitter %}
+    <a href="{{ patron.social_connections.twitter.url }}"><img class="avatar" src="{{ patron.thumb_url }}" alt="" /> {{ patron.full_name }}</a></li>
+{% else %}
+    <div class="no-link"><img class="avatar" src="{{ patron.thumb_url }}" alt="" /> {{ patron.full_name }}</div>
+{% endif %}
+</li>
+{% endif %}
+{% endfor %}
 </ul>
 
 </section>

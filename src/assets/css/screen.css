@@ -258,7 +258,8 @@ background tone   #f8f8f7
   }
 
   a:link,
-  a:visited {
+  a:visited,
+  div.no-link {
     color: #272927;
     text-decoration: none;
   }
@@ -273,7 +274,8 @@ background tone   #f8f8f7
     font-weight: 650;
   }
   p a,
-  li a {
+  li a,
+  li div.no-link {
     font-weight: 700;
   }
 
@@ -421,6 +423,7 @@ background tone   #f8f8f7
     border: 0.1875em solid #272927;
     border-radius: 100%;
     overflow: hidden;
+    object-fit: cover;
   }
   #coalition .avatar {
     width: 2.25em;
@@ -429,7 +432,7 @@ background tone   #f8f8f7
   }
 
   .cta-slack {
-    margin-bottom: 0.75em;
+    margin-bottom: 2.25em;
   }
   .cta-twitter {
     margin-bottom: 3em;
@@ -635,7 +638,8 @@ background tone   #f8f8f7
   #community li {
     margin-bottom: 0.75em;
   }
-  #community li a {
+  #community li a,
+  #community li div.no-link {
     display: flex;
     align-items: center;
   }
@@ -707,7 +711,7 @@ background tone   #f8f8f7
   }
   .long-length h2 {
     margin: 0;
-    max-width: 22.6666666667em;
+    max-width: 20em;
   }
   article.long-length h2 {
     font-weight: 400;
@@ -716,10 +720,12 @@ background tone   #f8f8f7
   .long-length h3 {
     line-height: 1.1666666667;
     margin: 2.3333333333em 0 1.1666666667em;
+    max-width: 30em;
   }
   article.long-length h3 {
     font-weight: 450;
     letter-spacing: -0.02083333333em;
+    max-width: 40em;
   }
   .long-length h4 {
     font-weight: 800;
@@ -735,7 +741,7 @@ background tone   #f8f8f7
   .long-length ol {
     font-size: 1.125em;
     line-height: 1.5555555556;
-    max-width: 36em;
+    max-width: 40em;
   }
   .long-length header .article-info,
   .long-length cite,
@@ -811,7 +817,7 @@ background tone   #f8f8f7
   }
   .long-length blockquote p,
   .long-length aside p {
-    max-width: 34em;
+    max-width: 30em;
   }
   .long-length blockquote p:first-letter {
     margin-left: -0.5em;
@@ -1121,7 +1127,7 @@ background tone   #f8f8f7
     max-width: 17.5em;
   }
   .long-length .fig-secondary img {
-    width: 40.5em;
+    width: 45em;
   }
 
   .long-length .table-of-contents {
@@ -1131,7 +1137,6 @@ background tone   #f8f8f7
 
   #glossary dl {
     display: flex;
-    flex-flow: ;
     flex-direction: row;
     flex-wrap: wrap;
   }

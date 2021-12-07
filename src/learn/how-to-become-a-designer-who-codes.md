@@ -64,7 +64,7 @@ CSS (there's a hint in the name : Cascading Style Sheets) is the realm of the de
 For example, here's what Apple.com looks like without any styles or images:
 
 <figure class="fig-secondary">
-    <img src="/assets/img/learn/bare_apple.jpeg" alt="">
+    <img src="/assets/img/learn/bare_apple.png" alt="">
     <figcaption>Apple sans style</figcaption>
 </figure>
 
